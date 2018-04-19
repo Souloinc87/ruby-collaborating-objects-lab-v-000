@@ -8,9 +8,9 @@ class Artist
     @songs = []
   end
 
-  def self.all 
-    @@all 
-  end 
+  def self.all
+    @@all
+  end
 
   def songs
     @songs
@@ -22,7 +22,7 @@ class Artist
   end
 
   def save
-    @@all << self
+    self.class.all << self
   end
 
 end
