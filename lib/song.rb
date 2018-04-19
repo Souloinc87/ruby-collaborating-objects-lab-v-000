@@ -11,6 +11,7 @@ class Song
     artist = Artist.find_or_create_by_name(name_split[0])
     song.artist = artist
     artist.add_song(song)
+    song 
   end
 
 end
