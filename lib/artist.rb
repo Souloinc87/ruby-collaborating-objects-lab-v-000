@@ -29,13 +29,13 @@ class Artist
     artist = self.new
     artist.name = name
     artist.save
-    artist 
+    artist
   end
 
   def self.new_by_name(name)
     artist = self.new
-    song.name = name
-    song
+    artist.name = name
+    artist 
   end
 
   def self.find_by_name(name)
