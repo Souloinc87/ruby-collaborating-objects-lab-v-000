@@ -24,7 +24,7 @@ class Artist
   end
 
   def save
-    @all << self
+    @@all << self
   end
 
   def self.create_by_name(name)
@@ -53,6 +53,6 @@ class Artist
   def print_songs
 
 
-  end 
+  end
 
 end
