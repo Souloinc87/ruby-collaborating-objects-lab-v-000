@@ -33,7 +33,7 @@ class Artist
   end
 
   def self.find_by_name(name)
-    
+    @@all.detect{|x| x.name == name}
   end
 
   end
