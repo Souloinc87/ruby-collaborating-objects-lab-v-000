@@ -30,7 +30,11 @@ class Artist
     song.name = name
     song.save
     song
-  end 
+  end
+
+  def self.find_by_name(name)
+    
+  end
 
   end
 
