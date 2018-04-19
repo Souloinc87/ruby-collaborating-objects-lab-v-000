@@ -52,6 +52,7 @@ class Artist
 
   def print_songs
     @songs.join(",")
+    binding.pry 
   end
 
 end
