@@ -10,7 +10,7 @@ class Artist
 
   def songs
     @songs
-  end 
+  end
 
   def self.all
     @@all
@@ -30,7 +30,8 @@ class Artist
     song.name = name
     song.save ||
     @@all.detect{|x| x.name == name}
-
   end 
+
+  end
 
 end
