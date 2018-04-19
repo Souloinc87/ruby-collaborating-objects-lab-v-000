@@ -1,3 +1,5 @@
+require 'pry'
+
 class Artist
   attr_accessor :name
 
@@ -35,7 +37,7 @@ class Artist
   def self.new_by_name(name)
     artist = self.new
     artist.name = name
-    artist 
+    artist
   end
 
   def self.find_by_name(name)
