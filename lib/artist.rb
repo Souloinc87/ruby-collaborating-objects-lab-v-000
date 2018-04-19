@@ -35,7 +35,7 @@ class Artist
   end
 
   def self.new_by_name(name)
-    artist = self.new
+    artist = artist.new
     artist.name = name
     artist
   end
