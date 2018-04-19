@@ -28,14 +28,14 @@ class Artist
   end
 
   def self.create_by_name(name)
-    artist = artist.new
+    artist = Artist.new
     artist.name = name
     artist.save
     artist
   end
 
   def self.new_by_name(name)
-    artist = artist.new
+    artist = Artist.new
     artist.name = name
     artist
   end
